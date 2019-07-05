@@ -4,20 +4,18 @@ import './style.css';
 function Nav(props) {
 	return (
 		<nav className="navbar navbar-expand-lg navbar-light">
-			<h3>
-        William Wood
-      </h3>
-			<div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-				<div className="navbar-nav">
+			<h3>William Wood</h3>
+			<div className="collapse navbar-collapse " id="navbarNavAltMarkup">
+				<div className="navbar-nav ">
 					<a className="nav-item nav-link active" href="/">
-						Home <span className="sr-only">(current)</span>
+						About <span className="sr-only">(current)</span>
 					</a>
-					<a className="nav-item nav-link" href="/About">
-						About
+					<a className="nav-item nav-link" href="/Projects">
+						Projects
 					</a>
 					<a className="nav-item nav-link" href="/Contact">
 						Contact
-					</a>					
+					</a>
 				</div>
 			</div>
 		</nav>
