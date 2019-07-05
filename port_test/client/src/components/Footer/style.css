@@ -1,0 +1,16 @@
+.footer {
+    background: slategray;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border-top: solid 5px tan;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 5px 5px 8px;
+    min-height: 50px;
+    width: 100%;
+}
+
+.bottom {
+    padding-top: 10px;
+}

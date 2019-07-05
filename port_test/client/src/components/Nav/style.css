@@ -10,3 +10,13 @@
     box-shadow: 5px 5px 8px rgb(184, 184, 184);
 }
 
+.navbar-nav {
+    flex-direction: row;
+    width: 100%;
+    display: -webkit-box;
+}
+
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit
+}
